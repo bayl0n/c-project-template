@@ -1,6 +1,6 @@
 CC=gcc
-
 FLAGS=-ansi -Wall -Werror
+DEP=
 
-main.out: main.c
-	$(CC) $(FLAGS) -o main.out main.c -lm
+main.out: $(DEP) main.c
+	$(CC) $(FLAGS) -o main.out $(DEP) main.c -lm

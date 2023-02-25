@@ -6,6 +6,8 @@ This is a small project template that gives you everything you need to run your 
 
 As your project grows, you will need to edit the `makefile` to include new C files.
 
+Add dependent C files to the `DEP` variable in the `makefile`.
+
 Compiling and running your program is both handled by the `run.sh` script.
 
 ## Defaults
