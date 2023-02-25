@@ -13,7 +13,7 @@ Compiling and running your program is both handled by the `run.sh` script.
 Feel free to edit the `makefile` but by default, `ansi` C is enabled, as well as `Wall` and `Werror`.
 
 ## Default Flags
-* **-ansi**
-* **-Wall**
-* **-Werror**
+* -ansi
+* -Wall
+* -Werror
 
